@@ -7,26 +7,9 @@
         <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
         <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script> 
-    $(document).ready(function(){
-        $('.products').slick({
-            dots: true,
-            infinite: true,
-            slidesToShow: 2,
-            slidesToScroll: 1,
-            prevArrow: $('.prev-arrow'),
-            nextArrow: $('.next-arrow'),
-            appendDots:$('.dots-products'),
-        }
-            
-        
-        );
-    });
-      </script>
-    </head>
-
-
-<body>       
+        <script type="text/javascript" src="js/script.js"></script>
+        </head>
+    <body>       
     <header class="flex">
         <a href="/"><img src="images/logo.svg" ></a>
         <nav>
@@ -37,6 +20,7 @@
            <li><a href="/">Contacto</a></li> 
            </ul>     
         </nav>
+        
     </header>
     <div class="hero-section">
        
@@ -50,10 +34,15 @@
     </div>
 
     <div class="mofu-section">
-     <span>tennis</span>
+     <div class="subtitle"><span class="mofu-subtitle">tennis</span></div>
+     <div class="mofu-decription">
      <h2>Raquetas.Accesorios.Pelotas</h2>
      <p>Conoce nuestras raquetas y aprende a jugar Tennis cómo un profesional.</p>
-     <a class="button button-black">historia</a>   
+     </div>
+     <div class="mofu-button">
+     <a href="/" class="button">historia <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+     <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+   </svg></a></div>
     </div>
 
 <div class="slider-section">
@@ -65,8 +54,12 @@
           </span>
           <div class="dots-products"></div>
           <div class="arrows-products">
-            <a class="prev-arrow">Prev</a>
-            <a class="next-arrow">Next</a>
+            <a class="prev"><svg xmlns="http://www.w3.org/2000/svg" width="9" height="13" viewBox="0 0 9 13">
+            <path fill="#FFF" fill-rule="nonzero" d="M0 0v13l9-6.5z"/>
+        </svg></a>
+            <a class="next"><svg xmlns="http://www.w3.org/2000/svg" width="9" height="13" viewBox="0 0 9 13">
+            <path fill="#FFF" fill-rule="nonzero" d="M0 0v13l9-6.5z"/>
+        </svg></a>
           </div>
     </div>
     <div class="products" >
