@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+    <head>
+        <link rel="stylesheet" href="css/home.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.cdnfonts.com/css/helvetica-neue-9" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script> 
+    $(document).ready(function(){
+        $('.products').slick({
+            dots: true,
+            infinite: true,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            prevArrow: $('.prev-arrow'),
+            nextArrow: $('.next-arrow'),
+            appendDots:$('.dots-products'),
+        }
+            
+        
+        );
+    });
+      </script>
+    </head>
+
+
+<body>       
+    <header class="flex">
+        <a href="/"><img src="images/logo.svg" ></a>
+        <nav>
+           <ul class="flex">
+           <li> <a href="/">Inicio</a></li>
+           <li> <a href="/">Acerca de nosotros</a></li>
+           <li> <a href="/">Historia</a></li>
+           <li><a href="/">Contacto</a></li> 
+           </ul>     
+        </nav>
+    </header>
+    <div class="hero-section">
+       
+        <h1>Las mejores raquetas para jugar <span>Tennis</span></h1>
+        <div class="hero-button">
+         <a class="button button-white">acerca de nosotros 
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+          </svg></a>
+        </div>
+    </div>
+
+    <div class="mofu-section">
+     <span>tennis</span>
+     <h2>Raquetas.Accesorios.Pelotas</h2>
+     <p>Conoce nuestras raquetas y aprende a jugar Tennis cómo un profesional.</p>
+     <a class="button button-black">historia</a>   
+    </div>
+
+<div class="slider-section">
+    <div class="products-description">
+        <h2>Nuestras <span>Raquetas</span> </h2>
+        <span class="products-details">
+
+            Conoce nuestras raquetas y aprende a jugar Tennis cómo un profesional.
+          </span>
+          <div class="dots-products"></div>
+          <div class="arrows-products">
+            <a class="prev-arrow">Prev</a>
+            <a class="next-arrow">Next</a>
+          </div>
+    </div>
+    <div class="products" >
+        <div class="product"><span>1</span><img src="images/raqueta.png"></div>
+        <div class="product"><span>2</span><img src="images/raqueta.png"></div>
+        <div class="product"><span>3</span><img src="images/raqueta.png"></div>
+        <div class="product"><span>4</span><img src="images/raqueta.png"></div>
+        <div class="product"><span>5</span><img src="images/raqueta.png"></div>
+    </div>
+</div>
+
+<div class="banner-section">
+
+
+</div>
+
+<footer class="flex">
+<section class="flex footer-content ">
+<div class="footer-links">
+    <a href="/">Inicio</a>
+<a href="/">Acerca de nosotros</a>
+<a href="/">Historia</a>
+<a href="/">Contacto</a>
+
+</div>
+<div class="social-icons">
+
+<a href="/"><img src="images/linkedin.svg"></a>
+<a href="/"><img src="images/vimeo.svg"></a>
+<a href="/"><img src="images/instagram.svg"></a>
+<a href="/"><img src="images/twitter.svg"></a>
+<a href="/"><img src="images/facebook.svg"></a>
+</div>
+
+</section>
+
+<a href="/"><img src="images/logo.svg" ></a>
+
+</footer>
+</body>
+</html>
